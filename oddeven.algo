@@ -1,0 +1,15 @@
+ALGORITHM odd_even
+VAR
+N:INTEGER;
+BEGIN
+read(N);
+IF (N mod 2 = 0) THEN
+    write (N is an even number)
+
+ELSE
+    write (N is an odd number)
+
+END_IF
+
+END
+

@@ -1,0 +1,12 @@
+ALGORITHM Positif_number
+VAR
+X:INTEGER;
+BEGIN
+read(X);
+WHILE(X <> 0) DO
+IF (X>0)
+write(X is a positif number)
+else write(X is a negatif number)
+END_IF
+END_WHILE
+END

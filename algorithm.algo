@@ -1,0 +1,22 @@
+ALGORITHM algorithm_calcul
+VAR
+    i,nb_w,nb_c,nb_voy:INTEGER;
+    ch:STRING;
+    i=nb_c=nb_voy:=0;
+    nb_w:=1;
+BEGIN
+    read(ch);
+   WHILE (ch[i]<> '.') DO
+   i:=i+1;
+    if ch[i]={o,i,e,a,u,O,I,E,A,U}
+    then 
+    nb_voy:=nb_voy+1;
+    nb_c:=nb_c+1;
+    else if ch[i] <> ' '
+    nb_c:=nb_c+1;
+     else nb_w:=nb_w+1;
+    end if 
+   END_WHILE  
+    
+END 
+

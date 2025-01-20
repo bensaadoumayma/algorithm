@@ -1,0 +1,11 @@
+ALGORITHM
+VAR
+i,N,SUM:integer;
+SUM:=0;
+BEGIN
+read(N);
+FOR i FROM 1 TO N STEP 1  DO
+    SUM:=SUM+i;
+END_FOR
+write(SUM);
+END
